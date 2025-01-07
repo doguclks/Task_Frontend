@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #242424;
+  }
+  
+  .taskAdd-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Sayfa yüksekliğini kapsar */
+  }
+  
+  .taskAdd-form {
+    background-color: #fff; /* Beyaz zemin */
+    padding: 20px;
+    border-radius: 10px; /* Köşeleri yuvarlar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Bileşenler arasındaki boşluk */
+    width: 300px; /* Form genişliği */
+  }
+  
+  .taskAdd-input {
+    width: 100%;
+  }
+  
+  .taskAdd-button {
+    width: 100%;
+    font-weight: bold;
+  }
+  
