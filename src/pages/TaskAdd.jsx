@@ -35,7 +35,7 @@ function TaskAdd() {
 
   
   return (
-    <> <h1>Task Add</h1>
+    <> <h1>Task Ekle</h1>
     <div className="taskAdd-height">
     <TextField id="outlined-basic" label="Title" variant="outlined" value={title} onChange={(e) => setTitle(e.target.value)} className='taskAdd-input'/>
     <TextField id="outlined-basic" label="Description" variant="outlined" value={description} onChange={(e) => setDescription(e.target.value)}  className='taskAdd-input'/>
